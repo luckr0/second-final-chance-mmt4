@@ -1,0 +1,642 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+input {
+    border: 1px solid #b0b0b0;
+    padding: 3px 5px 4px;
+    color: #979797;
+    width: 190px;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+
+/*             _,........__
+            ,-'            "`-.
+          ,'                   `-.
+        ,'                        \
+      ,'                           .
+      .'\               ,"".       `
+     ._.'|             / |  `       \
+     |   |            `-.'  ||       `.
+     |   |            '-._,'||       | \
+     .`.,'             `..,'.'       , |`-.
+     l                       .'`.  _/  |   `.
+     `-.._'-   ,          _ _'   -" \  .     `
+`."""""'-.`-...,---------','         `. `....__.
+.'        `"-..___      __,'\          \  \     \
+\_ .          |   `""""'    `.           . \     \
+  `.          |              `.          |  .     L
+    `.        |`--...________.'.        j   |     |
+      `._    .'      |          `.     .|   ,     |
+         `--,\       .            `7""' |  ,      |
+            ` `      `            /     |  |      |    _,-'"""`-.
+             \ `.     .          /      |  '      |  ,'          `.
+              \  v.__  .        '       .   \    /| /              \
+               \/    `""\"""""""`.       \   \  /.''                |
+                `        .        `._ ___,j.  `/ .-       ,---.     |
+                ,`-.      \         ."     `.  |/        j     `    |
+               /    `.     \       /         \ /         |     /    j
+              |       `-.   7-.._ .          |"          '         /
+              |          `./_    `|          |            .     _,'
+              `.           / `----|          |-............`---'
+                \          \      |          |
+               ,'           )     `.         |
+                7____,,..--'      /          |
+                                  `---.__,--.' */
+
+
+
+#slider-1 {
+    width: 50%;
+    margin-top: 5vh;
+    margin-left: 25%;
+}
+
+#slider-2 {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1vh;
+
+}
+
+#slider-3 {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+
+}
+
+li {
+    float: right;
+    margin-right: 10vw;
+    margin-top: 5vh;
+}
+
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #FFAFE3;
+    font-family: 'Montserrat', bold;
+    font-weight: 700;
+
+
+}
+
+header {
+    height: 700px;
+
+}
+
+
+.hero1 {
+
+    background: linear-gradient(to left,
+            rgba(0, 140, 255, 0.658),
+            rgba(212, 0, 255, 0.562)), url("../img/8b421263811603.5abcf34fb63f5.jpg");
+    background-size: cover;
+}
+
+.hero2 {
+
+    background: linear-gradient(to left,
+            rgba(0, 140, 255, 0.658),
+            rgba(212, 0, 255, 0.562)), url("../img/c9c6be64785095.5af0b88da3d37.jpg");
+    background-size: cover;
+
+
+}
+
+.hero3 {
+
+    background: linear-gradient(to left,
+            rgba(0, 140, 255, 0.658),
+            rgba(212, 0, 255, 0.562)), url("../img/af246165614959.5afab677e5b61.png");
+    background-size: cover;
+
+}
+
+main {
+    height: 220vh;
+}
+
+
+.profile-img-wrapper {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 100%;
+    background-image: url("../img/contact-img.png");
+    background-size: 200%;
+    background-position: center;
+    background-position-y: 30%;
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    position: relative;
+    left: 25%;
+    width: 75%;
+    color: white;
+    text-emphasis: bold;
+}
+
+p {
+    font-family: 'Montserrat', medium;
+    color: white;
+    width: 34%;
+    line-height: 1.5em;
+    position: relative;
+    left: 25%;
+    top: 10%;
+}
+
+#playa {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: -5vh;
+}
+
+
+.showbutton {
+    opacity: 1;
+}
+
+.hidebutton {
+
+
+
+    opacity: 0;
+    pointer-events: visible;
+}
+
+.buttonwrapper {
+    width: 40vw;
+    position: relative;
+    left: 35%;
+    top: -30vh;
+
+}
+
+.player-btn {
+    margin-right: 2vw;
+    font-size: 3em;
+    /* background-color:rgba(255, 255, 255, 0.658); */
+
+}
+
+.featured {
+    position: relative;
+    width: 100vw;
+    left: 40%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.portofolio-wrapper {
+    height: 100vh;
+    width: 90vw;
+    position: relative;
+    left: 5vw;
+    top: 50px;
+}
+
+.portofolio-item {
+    float: left;
+    width: 28.66666vw;
+    height: 28.66666vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.portofolio-content {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 140, 255, 0.658);
+}
+
+.wrapper1 {
+    background-image: url("../img/99f90c62250151.5a8c4af37fed6.gif");
+    background-size: cover;
+    background-position-x: center;
+
+}
+
+.wrapper2 {
+    background-image: url("../img/01b8e164052935.5ac54848589e1.jpg");
+    background-size: cover;
+    background-position-x: center;
+
+}
+
+.wrapper3 {
+    background-image: url("../img/a8866c65593285.5af9f0d2822be.gif");
+    background-size: cover;
+    background-position-x: center;
+
+}
+
+.wrapper4 {
+    background-image: url("../img/verplicht\ item\ 2.jpg");
+    background-size: cover;
+    background-position-x: center;
+
+}
+
+
+.wrapper5 {
+    background-image: url("../img/verplicht\ item\ 1.jpg");
+    background-size: cover;
+    background-position-x: center;
+
+}
+
+
+.wrapper6 {
+    background-image: url("../img/d97bfd65388399.5af29f33e6beb.jpg");
+    background-size: cover;
+    background-position-x: center;
+
+}
+
+h2 {
+    font-family: 'montserrat', serif;
+    font-size: 3.5vw;
+    position: relative;
+    font-weight: 900;
+    width: 80%;
+    height: 40%;
+    left: 10%;
+    top: 5%;
+    color: white;
+    text-emphasis: bold;
+
+}
+
+.tagwrapper {
+    height: 40%;
+    position: relative;
+    top: 20%;
+    line-height: -2%;
+}
+
+.tag {
+    font-family: 'montserrat', serif;
+    font-size: 2vw;
+    position: relative;
+    font-weight: 300;
+    color: white;
+    height: 30%;
+    background-color: #FFAFE3;
+    margin-left: 6.666%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    border-radius: 10px;
+
+    float: left;
+    margin-top: 3%;
+}
+
+.cta1 {
+    display: inline-block;
+    position: relative;
+    top: 10vh;
+    background-color: #0076FF;
+    width: 28vw;
+    text-align: center;
+    left: 32vw;
+    font-size: 2vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+footer {
+    height: 50vh;
+    background-color: #0076FF;
+}
+
+.footer {
+
+
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    position: relative;
+    left: 0%;
+    top: 10%;
+    width: 100%;
+    color: white;
+    text-emphasis: bold;
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    width: 100%;
+    top: 8vh;
+    /* left: 45%; */
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+
+
+}
+
+.contactinfo {
+    position: fixed;
+    width: 40vw;
+    /* height: 24vh; */
+    left: 0;
+    top: 30%;
+    background-color: rgba(205, 4, 255, 0.901);
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.contact2 {
+    display: inline-block;
+    width: 100%;
+    top: 8vh;
+    /* left: 45%; */
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+}
+
+.contactinfo2 {
+    position: fixed;
+    width: 40vw;
+    /* height: 24vh; */
+    left: 0;
+    top: 30%;
+    background-color: rgba(205, 4, 255, 0.901);
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.closebutt {
+    width: 6%;
+    position: relative;
+    float: right;
+    padding-right: 1vw;
+    padding-top: 1vw;
+}
+
+.closebutt2 {
+    width: 6%;
+    position: relative;
+    float: right;
+    padding-right: 1vw;
+    padding-top: 1vw;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2vh;
+    font-family: 'montserrat';
+    color: white;
+}
+
+.contactheader {
+    padding-bottom: 2vh;
+    pointer-events: none;
+    left: 20%;
+    width: 80%;
+    top: 0;
+
+
+}
+
+#sketch-holder {
+    position: relative;
+    width: 70vw;
+    height: 70vh;
+}
+
+.flexholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.warning {
+    position: absolute;
+    width: 80vw;
+    top: 850px;
+    left: 10vw;
+    opacity: 0;
+    color: #FFAFE3;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.back {
+    font-family: 'Montserrat', medium;
+    line-height: 1.5em;
+    position: relative;
+    left: 25%;
+    top: 13vh;
+}
+
+
+@media (max-width: 768px) {
+
+    canvas {
+        opacity: 0;
+
+
+    }
+
+    .p5Canvas {
+        width: 0vw;
+    }
+
+    #sketch-holder {
+        opacity: 0;
+    }
+
+    .warning {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 700px) {
+    main {
+        height: 180vh;
+    }
+
+    .portofolio-item {
+
+        width: 100%;
+
+    }
+
+    li {
+        float: right;
+        margin-right: 6.25%;
+        margin-top: 5vh;
+        width: 25%;
+    }
+
+    .profile-img-wrapper {
+        width: 30vw;
+        height: 30vw;
+        left: 35vw;
+        top: 10vw;
+
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    h1 {
+        font-size: 2em;
+        left: 20%;
+        width: 80%;
+        top: 15vw;
+    }
+
+    p {
+        width: 80%;
+        line-height: 1.5em;
+        position: relative;
+        left: 10%;
+        top: 20%;
+    }
+
+    .back {
+        font-family: 'Montserrat', medium;
+        line-height: 1.5em;
+        position: relative;
+        left: 10%;
+        top: 20vh;
+    }
+
+    .contactinfo {
+        width: 80vw;
+    }
+
+    .contactinfo2 {
+        width: 80vw;
+    }
+
+    .contactheader {
+        font-size: 3em;
+    }
+
+    #playa {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        top: -5vh;
+    }
+}
