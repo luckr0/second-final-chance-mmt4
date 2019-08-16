@@ -43,6 +43,8 @@ $('header').on('classChange', function () {
 
 $("video").each(function () {
     var player = videojs(this)
+    player.fluid(true);
+    player.preload(true);
     $('.rewindbtn').click(function () {
         event.preventDefault();
         var time = player.currentTime();
@@ -85,7 +87,7 @@ $(".portofolio-item").hover(function () {
 
 
 
-$("video").hover(function () {
+$("#playa").hover(function () {
     $(".player-btn").addClass("showbutton");
     $(".player-btn").removeClass("hidebutton");
 
