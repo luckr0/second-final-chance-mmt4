@@ -215,7 +215,7 @@ header {
 }
 
 main {
-    height: 220vh;
+    /* height: 220vh; */
 }
 
 
@@ -254,9 +254,8 @@ p {
 }
 
 #playa {
-    width: 50%;
+    width: 70%;
     position: relative;
-    left: 25%;
     top: -5vh;
 }
 
@@ -275,15 +274,17 @@ p {
 
 .buttonwrapper {
     width: 40vw;
-    position: relative;
-    left: 35%;
-    top: -30vh;
+    position: absolute;
 
 }
 
+
+
 .player-btn {
-    margin-right: 2vw;
-    font-size: 3em;
+    margin-left: 5vw;
+    font-size: 2.5em;
+    background: rgba(205, 4, 255, 0.901);
+
     /* background-color:rgba(255, 255, 255, 0.658); */
 
 }
@@ -297,7 +298,7 @@ p {
 }
 
 .portofolio-wrapper {
-    height: 100vh;
+    padding-bottom: 30vh;
     width: 90vw;
     position: relative;
     left: 5vw;
@@ -418,7 +419,7 @@ h2 {
 }
 
 footer {
-    height: 50vh;
+    /* height: 50vh; */
     background-color: #0076FF;
 }
 
@@ -439,7 +440,9 @@ footer {
 .contact {
     display: inline-block;
     width: 100%;
-    top: 8vh;
+    /* top: 8vh; */
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     /* left: 45%; */
     font-size: 2em;
     position: relative;
@@ -462,11 +465,13 @@ footer {
 .contact2 {
     display: inline-block;
     width: 100%;
-    top: 8vh;
-    /* left: 45%; */
+
+
     font-size: 2em;
     position: relative;
     text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .contactinfo2 {
@@ -546,8 +551,22 @@ h3 {
     top: 13vh;
 }
 
+.footerwhat {
+    padding-top: 5vh;
+}
 
 @media (max-width: 768px) {
+    .cta1 {
+        display: inline-block;
+        position: relative;
+        top: 10vh;
+        background-color: #0076FF;
+        width: 46vw;
+        text-align: center;
+        left: 20vw;
+        font-size: 6vw;
+        padding: 2vw;
+    }
 
     canvas {
         opacity: 0;
@@ -569,8 +588,8 @@ h3 {
 }
 
 @media (max-width: 700px) {
-    main {
-        height: 180vh;
+    .footer {
+        font-size: 2em;
     }
 
     .portofolio-item {
@@ -622,21 +641,28 @@ h3 {
     }
 
     .contactinfo {
-        width: 80vw;
+        width: 100vw;
     }
 
     .contactinfo2 {
-        width: 80vw;
+        width: 100vw;
     }
 
     .contactheader {
         font-size: 3em;
+
+        padding-bottom: 2vh;
+        pointer-events: none;
+        text-align: center;
+        width: 100%;
+        left: 0;
+        top: 0;
     }
 
     #playa {
         width: 80%;
         position: relative;
-        left: 10%;
         top: -5vh;
+
     }
 }
